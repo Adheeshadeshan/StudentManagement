@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C97FA62-2E30-4988-823A-2983367C7B98}|StudentManagement.Dal\\StudentManagement.Dal.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.dal\\interfaces\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C97FA62-2E30-4988-823A-2983367C7B98}|StudentManagement.Dal\\StudentManagement.Dal.csproj|solutionrelative:studentmanagement.dal\\interfaces\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415C3F90-B9EF-4195-B845-92E8B5B2430F}|StudentManagement.Domain\\StudentManagement.Domain.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415C3F90-B9EF-4195-B845-92E8B5B2430F}|StudentManagement.Domain\\StudentManagement.Domain.csproj|solutionrelative:studentmanagement.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06478E40-F854-4C94-971B-4333A2B7B942}|StudentManagement.Dto\\StudentManagement.Dto.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.dto\\business\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06478E40-F854-4C94-971B-4333A2B7B942}|StudentManagement.Dto\\StudentManagement.Dto.csproj|solutionrelative:studentmanagement.dto\\business\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.persistence\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE70A56F-1E02-42DC-BDFF-43382D9DC523}|StudentManagement.Api\\StudentManagement.Api.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE70A56F-1E02-42DC-BDFF-43382D9DC523}|StudentManagement.Api\\StudentManagement.Api.csproj|solutionrelative:studentmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B9090E-91D3-455A-9A96-ACB3282EEC68}|StudentManagement.Service\\StudentManagement.Service.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B9090E-91D3-455A-9A96-ACB3282EEC68}|StudentManagement.Service\\StudentManagement.Service.csproj|solutionrelative:studentmanagement.service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B9090E-91D3-455A-9A96-ACB3282EEC68}|StudentManagement.Service\\StudentManagement.Service.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.service\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B9090E-91D3-455A-9A96-ACB3282EEC68}|StudentManagement.Service\\StudentManagement.Service.csproj|solutionrelative:studentmanagement.service\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.persistence\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.persistence\\context\\studentdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\context\\studentdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.persistence\\migrations\\20241112092137_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\migrations\\20241112092137_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.persistence\\migrations\\20241112130159_changenictocamelcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BDB163-25C7-4297-9EF6-DAC769E77160}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\migrations\\20241112130159_changenictocamelcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE70A56F-1E02-42DC-BDFF-43382D9DC523}|StudentManagement.Api\\StudentManagement.Api.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE70A56F-1E02-42DC-BDFF-43382D9DC523}|StudentManagement.Api\\StudentManagement.Api.csproj|solutionrelative:studentmanagement.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Api\\Program.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\Program.cs",
+              "RelativeToolTip": "StudentManagement.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:06:12.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Persistence\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "StudentManagement.Persistence\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:08:16.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\Interfaces\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Dal\\Interfaces\\Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\Interfaces\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "StudentManagement.Dal\\Interfaces\\Repositories\\IStudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:06:04.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Persistence\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "StudentManagement.Persistence\\Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:05:43.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Context\\StudentDbContextFactory.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Persistence\\Context\\StudentDbContextFactory.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Context\\StudentDbContextFactory.cs",
+              "RelativeToolTip": "StudentManagement.Persistence\\Context\\StudentDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:03:18.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241112092137_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Migrations\\20241112092137_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Persistence\\Migrations\\20241112092137_InitialCreate.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Migrations\\20241112092137_InitialCreate.cs",
+              "RelativeToolTip": "StudentManagement.Persistence\\Migrations\\20241112092137_InitialCreate.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:02:25.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\Business\\StudentDto.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Dto\\Business\\StudentDto.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\Business\\StudentDto.cs",
+              "RelativeToolTip": "StudentManagement.Dto\\Business\\StudentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:00:21.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Service\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "StudentManagement.Service\\Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:08:59.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Domain\\Models\\Student.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\Models\\Student.cs",
+              "RelativeToolTip": "StudentManagement.Domain\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:00:05.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Service\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\Services\\StudentService.cs",
+              "RelativeToolTip": "StudentManagement.Service\\Services\\StudentService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAUwEkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:58:53.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241112130159_ChangeNicToCamelCase.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Migrations\\20241112130159_ChangeNicToCamelCase.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Persistence\\Migrations\\20241112130159_ChangeNicToCamelCase.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\Migrations\\20241112130159_ChangeNicToCamelCase.cs",
+              "RelativeToolTip": "StudentManagement.Persistence\\Migrations\\20241112130159_ChangeNicToCamelCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:02:19.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "StudentManagement.Api\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentManagement.Api\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:48:31.404Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

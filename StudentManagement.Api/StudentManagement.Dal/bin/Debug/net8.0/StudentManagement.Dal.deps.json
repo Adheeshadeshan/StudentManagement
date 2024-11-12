@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StudentManagement.Dal/1.0.0": {
+        "dependencies": {
+          "StudentManagement.Domain": "1.0.0",
+          "StudentManagement.Dto": "1.0.0"
+        },
+        "runtime": {
+          "StudentManagement.Dal.dll": {}
+        }
+      },
+      "StudentManagement.Domain/1.0.0": {
+        "runtime": {
+          "StudentManagement.Domain.dll": {}
+        }
+      },
+      "StudentManagement.Dto/1.0.0": {
+        "runtime": {
+          "StudentManagement.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudentManagement.Dal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StudentManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StudentManagement.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

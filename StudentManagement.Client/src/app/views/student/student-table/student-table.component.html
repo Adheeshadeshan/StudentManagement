@@ -1,0 +1,94 @@
+<div class="mb-3">
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Search all fields..."
+    [(ngModel)]="searchTerm"
+    (ngModelChange)="onSearchChange($event)"
+  />
+</div>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Mobile</th>
+      <th scope="col">Email</th>
+      <th scope="col">NIC</th>
+      <th scope="col">Date of Birth</th>
+      <th scope="col">Address</th>
+      <th scope="col">Profile Image</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of displayedStudents; let i = index" (click)="onView(student)">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ student.firstName }}</td>
+      <td>{{ student.lastName }}</td>
+      <td>{{ student.mobile }}</td>
+      <td>{{ student.email }}</td>
+      <td>{{ student.nic }}</td>
+      <td>{{ student.dateOfBirth | date }}</td>
+      <td>{{ student.address }}</td>
+      <td>
+        <img
+          [src]="student.profileImageUrl ?? 'assets/images/avatars/1.jpg'"
+          alt="{{ student.firstName }}"
+          width="50"
+        />
+      </td>
+      <td>
+        <button
+          color="secondary"
+          cButton
+          variant="outline"
+          class="pr-1"
+          (click)="onEdit(student); $event.stopPropagation()"
+        >
+          <svg cIcon class="me-1" name="cil-pen"></svg>
+        </button>
+
+        <button
+          color="danger"
+          cButton
+          variant="outline"
+          (click)="deleteStudent(student.id); $event.stopPropagation()"
+        >
+          <svg cIcon class="me-1" name="cil-trash"></svg>
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<c-pagination aria-label="Page navigation example">
+  <li cPageItem>
+    <a
+      cPageLink
+      aria-label="Previous"
+      (click)="changePage(currentPage - 1)"
+      [class.disabled]="currentPage === 1"
+    >
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  <li
+    cPageItem
+    *ngFor="let page of [].constructor(totalPages); let pageIndex = index"
+  >
+    <a cPageLink (click)="changePage(pageIndex + 1)">{{ pageIndex + 1 }}</a>
+  </li>
+  <li cPageItem>
+    <a
+      cPageLink
+      aria-label="Next"
+      (click)="changePage(currentPage + 1)"
+      [class.disabled]="currentPage === totalPages"
+    >
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+</c-pagination>

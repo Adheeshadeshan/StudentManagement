@@ -1,0 +1,455 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\StudentManagement.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\StudentManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\StudentManagement.Api.csproj",
+        "projectName": "StudentManagement.Api",
+        "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\StudentManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\AdheeshaSenanayake\\.nuget\\packages\\",
+        "outputPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AdheeshaSenanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\StudentManagement.Service.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\StudentManagement.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj",
+        "projectName": "StudentManagement.Dal",
+        "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj",
+        "packagesPath": "C:\\Users\\AdheeshaSenanayake\\.nuget\\packages\\",
+        "outputPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AdheeshaSenanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
+        "projectName": "StudentManagement.Domain",
+        "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\AdheeshaSenanayake\\.nuget\\packages\\",
+        "outputPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AdheeshaSenanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj",
+        "projectName": "StudentManagement.Dto",
+        "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj",
+        "packagesPath": "C:\\Users\\AdheeshaSenanayake\\.nuget\\packages\\",
+        "outputPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AdheeshaSenanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj",
+        "projectName": "StudentManagement.Persistence",
+        "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj",
+        "packagesPath": "C:\\Users\\AdheeshaSenanayake\\.nuget\\packages\\",
+        "outputPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AdheeshaSenanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\StudentManagement.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\StudentManagement.Service.csproj",
+        "projectName": "StudentManagement.Service",
+        "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\StudentManagement.Service.csproj",
+        "packagesPath": "C:\\Users\\AdheeshaSenanayake\\.nuget\\packages\\",
+        "outputPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AdheeshaSenanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dal\\StudentManagement.Dal.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
+              },
+              "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj": {
+                "projectPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\StudentManagement.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
