@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
     ModalModule,
     ButtonModule,
     StudentFormComponent,
-    CommonModule
+    CommonModule,
   ],
   templateUrl: './student-detail.component.html',
   styleUrl: './student-detail.component.scss',
@@ -42,5 +42,13 @@ export class StudentDetailComponent {
     this.selectedStudent = student;
     this.visible = true;
   }
-  
+
+  onAddStudentButtonClick() {
+    this.visible = true;
+    this.viewMode = 'ADD';
+  }
+
+  onClose() {
+    this.visible = false;
+  }
 }
