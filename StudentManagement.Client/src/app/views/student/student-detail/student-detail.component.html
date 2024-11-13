@@ -1,11 +1,11 @@
-<button (click)="onAddStudentButtonClick()" class="mb-1" cButton>Create New Student</button>
+<button (click)="addNewStudent()" class="mb-1" cButton>Add New Student</button>
 
 <app-student-table (onStudentSelect)="onStudentSelect($event, 'EDIT')" (onViewStudent)="onStudentSelect($event, 'VIEW')"></app-student-table>
 
 <c-modal #verticallyCenteredModal [visible]="visible" alignment="center" id="verticallyCenteredModal">
   <c-modal-header>
     <h5 cModalTitle>{{ viewMode == 'EDIT' ? 'Update Student' : viewMode == 'ADD' ? 'Add Student': 'View Student'}}</h5>
-    <button (click)="onClose()" cButtonClose></button>
+    <button (click)="closeModal(false)" cButtonClose></button>
   </c-modal-header>
   <c-modal-body>
     <app-student-form *ngIf="visible" (onCloseModal)="closeModal($event)" [studentId]="studentId" [viewMode]="viewMode"></app-student-form>

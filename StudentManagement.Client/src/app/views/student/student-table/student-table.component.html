@@ -11,21 +11,142 @@
 <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Mobile</th>
-      <th scope="col">Email</th>
-      <th scope="col">NIC</th>
-      <th scope="col">Date of Birth</th>
-      <th scope="col">Address</th>
+      <th scope="col">No</th>
+      <th scope="col">
+        First Name
+        <span (click)="onSortChange('firstName')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'firstName'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg
+            *ngIf="sortState.column !== 'firstName'"
+            cIcon
+            name="cil-sort"
+          ></svg>
+        </span>
+      </th>
+      <th scope="col">
+        Last Name
+        <span (click)="onSortChange('lastName')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'lastName'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg
+            *ngIf="sortState.column !== 'lastName'"
+            cIcon
+            name="cil-sort"
+          ></svg>
+        </span>
+      </th>
+      <th scope="col">
+        Mobile
+        <span (click)="onSortChange('mobile')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'mobile'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg
+            *ngIf="sortState.column !== 'mobile'"
+            cIcon
+            name="cil-sort"
+          ></svg>
+        </span>
+      </th>
+      <th scope="col">
+        Email
+        <span (click)="onSortChange('email')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'email'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg *ngIf="sortState.column !== 'email'" cIcon name="cil-sort"></svg>
+        </span>
+      </th>
+      <th scope="col">
+        NIC
+        <span (click)="onSortChange('nic')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'nic'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg *ngIf="sortState.column !== 'nic'" cIcon name="cil-sort"></svg>
+        </span>
+      </th>
+      <th scope="col">
+        Date of Birth
+        <span (click)="onSortChange('dateOfBirth')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'dateOfBirth'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg
+            *ngIf="sortState.column !== 'dateOfBirth'"
+            cIcon
+            name="cil-sort"
+          ></svg>
+        </span>
+      </th>
+      <th scope="col">
+        Address
+        <span (click)="onSortChange('address')" class="sort-icon">
+          <svg
+            *ngIf="sortState.column === 'address'"
+            cIcon
+            [name]="
+              sortState.direction === 'asc'
+                ? 'cil-arrow-top'
+                : 'cil-arrow-bottom'
+            "
+          ></svg>
+          <svg
+            *ngIf="sortState.column !== 'address'"
+            cIcon
+            name="cil-sort"
+          ></svg>
+        </span>
+      </th>
       <th scope="col">Profile Image</th>
       <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let student of displayedStudents; let i = index" (click)="onView(student)">
-      <th scope="row">{{ i + 1 }}</th>
+    <tr
+      *ngFor="let student of displayedStudents; let i = index"
+      (click)="onView(student)"
+    >
+      <th scope="row">{{ (currentPage - 1) * pageSize + i + 1 }}</th>
       <td>{{ student.firstName }}</td>
       <td>{{ student.lastName }}</td>
       <td>{{ student.mobile }}</td>
@@ -35,7 +156,7 @@
       <td>{{ student.address }}</td>
       <td>
         <img
-          [src]="student.profileImageUrl ?? 'assets/images/avatars/1.jpg'"
+          [src]="student.profileImageUrl"
           alt="{{ student.firstName }}"
           width="50"
         />
@@ -45,7 +166,7 @@
           color="secondary"
           cButton
           variant="outline"
-          class="pr-1"
+          class="pr-1 margin-right"
           (click)="onEdit(student); $event.stopPropagation()"
         >
           <svg cIcon class="me-1" name="cil-pen"></svg>
@@ -55,7 +176,7 @@
           color="danger"
           cButton
           variant="outline"
-          (click)="deleteStudent(student.id); $event.stopPropagation()"
+          (click)="onDeleteStudent(student.id); $event.stopPropagation()"
         >
           <svg cIcon class="me-1" name="cil-trash"></svg>
         </button>

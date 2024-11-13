@@ -7,10 +7,10 @@ import {
 } from '@angular/forms';
 import { StudentService } from '../services/student.service';
 import { Student } from '../models/student';
-import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { ButtonModule } from '@coreui/angular';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-student-form',
@@ -21,16 +21,26 @@ import { ButtonModule } from '@coreui/angular';
 })
 export class StudentFormComponent implements OnInit {
   @Input() studentId!: number;
+  @Input() viewMode!: 'EDIT' | 'ADD' | 'VIEW';
   @Output() onCloseModal = new EventEmitter<boolean>();
   private subscriptions: Subscription = new Subscription();
-  studentForm: FormGroup;
-  @Input() viewMode!: 'EDIT' | 'ADD' | 'VIEW';
+
+  studentForm!: FormGroup;
 
   constructor(
     private fb: FormBuilder,
-    private studentService: StudentService
-  ) {
-    // Initialize form
+    private studentService: StudentService,
+    private toastrService: ToastrService
+  ) {}
+
+  ngOnInit(): void {
+    this.initializeForm();
+    if (this.studentId) {
+      this.loadStudentData(this.studentId);
+    }
+  }
+
+  initializeForm() {
     this.studentForm = this.fb.group({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
@@ -39,25 +49,20 @@ export class StudentFormComponent implements OnInit {
       nic: ['', Validators.required],
       dateOfBirth: ['', Validators.required],
       address: ['', Validators.required],
-      profileImageUrl: [''],
+      profileImageUrl: ['assets/images/avatars/student1.png'],
     });
   }
 
-  ngOnInit(): void {
-    if (this.studentId) {
-      this.loadStudentData(this.studentId);
-    }
-  }
-
-  // Load student data for editing
-  loadStudentData(id: number): void {
+  /** Load student data for editing */
+  private loadStudentData(id: number): void {
     this.studentService.getStudentById(id).subscribe((student) => {
-      console.log('student >>>>>>>>>>>>>>', student);
-      const formattedDateOfBirth = new Date(student.dateOfBirth).toISOString().split('T')[0];
+      const formattedDateOfBirth = new Date(student.dateOfBirth)
+        .toISOString()
+        .split('T')[0];
       this.studentForm.patchValue(student);
       this.studentForm.get('dateOfBirth')?.setValue(formattedDateOfBirth);
 
-      if(this.viewMode == 'VIEW') {
+      if (this.viewMode == 'VIEW') {
         this.studentForm.disable();
       } else {
         this.studentForm.enable();
@@ -65,33 +70,32 @@ export class StudentFormComponent implements OnInit {
     });
   }
 
-  // Submit form to add or update a student
+  /** Submit form to add or update a student */
   onSubmit(): void {
-    debugger;
     if (this.studentForm.valid) {
       const studentData: Student = this.studentForm.value;
 
       if (this.viewMode == 'EDIT' && this.studentId !== null) {
         // Update existing student
-        studentData.id = this.studentId
+        studentData.id = this.studentId;
         this.studentService
           .updateStudent(this.studentId, studentData)
-          .subscribe((response) => {
-            this.onCloseModal.emit(true);
-            console.log('Student updated successfully:', response);
+          .subscribe(() => {
+              this.onCloseModal.emit(true);
+              this.toastrService.success('Student updated successfully');
           });
       } else {
         // Add new student
-        this.studentService.addStudent(studentData).subscribe((response) => {
-          this.onCloseModal.emit(true);
-          console.log('Student added successfully:', response);
+        this.studentService.addStudent(studentData).subscribe(() => {
+            this.onCloseModal.emit(true);
+            this.toastrService.success('Student added successfully');
         });
       }
     }
   }
 
+  /** Unsubscribe from all subscriptions to prevent memory leaks */
   ngOnDestroy(): void {
-    // Unsubscribe from all subscriptions to prevent memory leaks
     this.subscriptions.unsubscribe();
   }
 }

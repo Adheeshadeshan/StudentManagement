@@ -1,0 +1,16 @@
+/* Makes the table rows clickable */
+table tbody tr {
+  cursor: pointer;
+}
+
+/* Ensures buttons and pagination links show a pointer */
+button,
+c-pagination li a {
+  cursor: pointer;
+}
+
+/* Style for the sorting icons to indicate clickable elements */
+.sort-icon {
+  cursor: pointer;
+}
+

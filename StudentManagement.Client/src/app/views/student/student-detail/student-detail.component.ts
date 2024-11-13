@@ -19,16 +19,17 @@ import { CommonModule } from '@angular/common';
   styleUrl: './student-detail.component.scss',
 })
 export class StudentDetailComponent {
-  @ViewChild(StudentTableComponent)
-  studentTableComponent!: StudentTableComponent;
-  selectedStudent!: Student;
+  @ViewChild(StudentTableComponent) studentTableComponent!: StudentTableComponent;
+  
   visible = false;
+  selectedStudent!: Student | undefined;
   viewMode!: 'EDIT' | 'ADD' | 'VIEW';
 
   get studentId(): number {
     return this.selectedStudent ? this.selectedStudent.id : 0;
   }
 
+  /** Closes the modal and optionally reloads the student list */
   closeModal(isReload: boolean) {
     this.visible = false;
     if (isReload) {
@@ -37,18 +38,17 @@ export class StudentDetailComponent {
     }
   }
 
-  onStudentSelect(student: Student, mode: 'EDIT' | 'VIEW') {
+  /** Sets the selected student and opens the modal in the specified mode */
+  onStudentSelect(student: Student, mode: 'EDIT' | 'VIEW'): void {
     this.viewMode = mode;
     this.selectedStudent = student;
     this.visible = true;
   }
 
-  onAddStudentButtonClick() {
+  /** Opens the modal to add a new student */
+  addNewStudent(): void {
     this.visible = true;
     this.viewMode = 'ADD';
-  }
-
-  onClose() {
-    this.visible = false;
+    this.selectedStudent = undefined;
   }
 }

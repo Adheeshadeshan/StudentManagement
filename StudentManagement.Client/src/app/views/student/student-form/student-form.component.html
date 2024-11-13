@@ -126,23 +126,19 @@
       </div>
     </div>
 
-    <button
-      cButton
-      color="secondary"
-      class="mt-3"
-      (click)="onCloseModal.emit(false)"
-    >
-      Close
-    </button>
-    <button
-      *ngIf="viewMode != 'VIEW'"
-      type="submit"
-      cButton
-      color="primary"
-      class="mt-3"
-      [disabled]="studentForm.invalid"
-    >
-      {{ viewMode == "EDIT" ? "Update" : "Add" }} Student
-    </button>
+    <div class="d-flex mt-3">
+      <button cButton color="secondary" class="margin-right" (click)="onCloseModal.emit(false)">
+        Close
+      </button>
+      <button
+        *ngIf="viewMode != 'VIEW'"
+        type="submit"
+        cButton
+        color="primary"
+        [disabled]="studentForm.invalid"
+      >
+        {{ viewMode == "EDIT" ? "Update" : "Add" }} Student
+      </button>
+    </div>
   </form>
 </div>
