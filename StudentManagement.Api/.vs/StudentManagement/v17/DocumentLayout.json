@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06478E40-F854-4C94-971B-4333A2B7B942}|StudentManagement.Dto\\StudentManagement.Dto.csproj|c:\\softone_adheesha\\studentmanagement\\studentmanagement.api\\studentmanagement.dto\\business\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{415C3F90-B9EF-4195-B845-92E8B5B2430F}|StudentManagement.Domain\\StudentManagement.Domain.csproj|solutionrelative:studentmanagement.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|NewFolder1{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:insert-data-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{FB2F3359-46C3-48EF-A0B0-213438E83630}|docs{FB2F3359-46C3-48EF-A0B0-213438E83630}|solutionrelative:create-table-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentDto.cs",
               "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Dto\\Business\\StudentDto.cs",
               "RelativeDocumentMoniker": "StudentManagement.Dto\\Business\\StudentDto.cs",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "StudentManagement.Dto\\Business\\StudentDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:38:19.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T16:38:19.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\StudentManagement.Domain\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagement.Domain\\Models\\Student.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "StudentManagement.Domain\\Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:36:34.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T16:36:34.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "insert-data-script.sql ",
               "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\insert-data-script.sql",
               "RelativeDocumentMoniker": "insert-data-script.sql",
@@ -76,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "create-table-script.sql ",
               "DocumentMoniker": "C:\\Softone_Adheesha\\StudentManagement\\StudentManagement.Api\\create-table-script.sql",
               "RelativeDocumentMoniker": "create-table-script.sql",

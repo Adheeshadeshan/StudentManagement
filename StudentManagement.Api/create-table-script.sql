@@ -14,6 +14,7 @@ CREATE TABLE [dbo].[Students](
 	[NIC] [nvarchar](max) NULL,
 	[DateOfBirth] [datetime2](7) NOT NULL,
 	[Address] [nvarchar](max) NULL,
+	[ProfileImageUrl] [nvarchar](max) NULL,
  CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
