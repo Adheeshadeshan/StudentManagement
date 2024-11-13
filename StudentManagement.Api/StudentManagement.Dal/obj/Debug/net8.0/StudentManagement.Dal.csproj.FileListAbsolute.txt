@@ -30,3 +30,4 @@ C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Da
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Dal\obj\Debug\net8.0\ref\StudentManagement.Dal.dll
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Dal\bin\Debug\net8.0\StudentManagement.Dto.dll
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Dal\bin\Debug\net8.0\StudentManagement.Dto.pdb
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Dal\obj\Debug\net8.0\StudentManagement.Dal.sourcelink.json

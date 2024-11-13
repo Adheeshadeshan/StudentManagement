@@ -36,3 +36,6 @@ C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Pe
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Persistence\obj\Debug\net8.0\StudentManagement.Persistence.pdb
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Persistence\obj\Debug\net8.0\StudentManagement.Persistence.genruntimeconfig.cache
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Persistence\obj\Debug\net8.0\ref\StudentManagement.Persistence.dll
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Persistence\bin\Debug\net8.0\StudentManagement.Dto.dll
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Persistence\bin\Debug\net8.0\StudentManagement.Dto.pdb
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Persistence\obj\Debug\net8.0\StudentManagement.Persistence.sourcelink.json

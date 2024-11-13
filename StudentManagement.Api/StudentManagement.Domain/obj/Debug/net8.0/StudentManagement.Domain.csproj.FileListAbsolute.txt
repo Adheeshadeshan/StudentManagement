@@ -20,3 +20,4 @@ C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Do
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Domain\obj\Debug\net8.0\refint\StudentManagement.Domain.dll
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.pdb
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Domain\obj\Debug\net8.0\ref\StudentManagement.Domain.dll
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.sourcelink.json

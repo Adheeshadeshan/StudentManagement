@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Api", "StudentManagement.Api\StudentManagement.Api.csproj", "{DE70A56F-1E02-42DC-BDFF-43382D9DC523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Api", "StudentManagement.Api\StudentManagement.Api.csproj", "{DE70A56F-1E02-42DC-BDFF-43382D9DC523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Domain", "StudentManagement.Domain\StudentManagement.Domain.csproj", "{415C3F90-B9EF-4195-B845-92E8B5B2430F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Domain", "StudentManagement.Domain\StudentManagement.Domain.csproj", "{415C3F90-B9EF-4195-B845-92E8B5B2430F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Dto", "StudentManagement.Dto\StudentManagement.Dto.csproj", "{06478E40-F854-4C94-971B-4333A2B7B942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Dto", "StudentManagement.Dto\StudentManagement.Dto.csproj", "{06478E40-F854-4C94-971B-4333A2B7B942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Service", "StudentManagement.Service\StudentManagement.Service.csproj", "{86B9090E-91D3-455A-9A96-ACB3282EEC68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Service", "StudentManagement.Service\StudentManagement.Service.csproj", "{86B9090E-91D3-455A-9A96-ACB3282EEC68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Dal", "StudentManagement.Dal\StudentManagement.Dal.csproj", "{6C97FA62-2E30-4988-823A-2983367C7B98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Dal", "StudentManagement.Dal\StudentManagement.Dal.csproj", "{6C97FA62-2E30-4988-823A-2983367C7B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Persistence", "StudentManagement.Persistence\StudentManagement.Persistence.csproj", "{53BDB163-25C7-4297-9EF6-DAC769E77160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Persistence", "StudentManagement.Persistence\StudentManagement.Persistence.csproj", "{53BDB163-25C7-4297-9EF6-DAC769E77160}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FB2F3359-46C3-48EF-A0B0-213438E83630}"
+	ProjectSection(SolutionItems) = preProject
+		create-table-script.sql = create-table-script.sql
+		insert-data-script.sql = insert-data-script.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

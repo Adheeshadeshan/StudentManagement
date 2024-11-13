@@ -62,7 +62,8 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "StudentManagement.Dal/1.0.0": {
         "dependencies": {
-          "StudentManagement.Domain": "1.0.0"
+          "StudentManagement.Domain": "1.0.0",
+          "StudentManagement.Dto": "1.0.0"
         },
         "runtime": {
           "StudentManagement.Dal.dll": {}

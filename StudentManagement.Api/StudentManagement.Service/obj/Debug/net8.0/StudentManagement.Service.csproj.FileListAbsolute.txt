@@ -36,3 +36,4 @@ C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Se
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Service\obj\Debug\net8.0\refint\StudentManagement.Service.dll
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Service\obj\Debug\net8.0\StudentManagement.Service.pdb
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Service\obj\Debug\net8.0\ref\StudentManagement.Service.dll
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Service\obj\Debug\net8.0\StudentManagement.Service.sourcelink.json

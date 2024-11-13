@@ -308,3 +308,4 @@ C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Ap
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net8.0\StudentManagement.Api.pdb
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net8.0\StudentManagement.Api.genruntimeconfig.cache
 C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net8.0\ref\StudentManagement.Api.dll
+C:\Softone_Adheesha\StudentManagement\StudentManagement.Api\StudentManagement.Api\obj\Debug\net8.0\StudentManagement.Api.sourcelink.json
